@@ -1,0 +1,250 @@
+/* latin-ext */
+@font-face {
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Lato Italic'), local('Lato-Italic'), url(https://fonts.gstatic.com/s/lato/v15/S6u8w4BMUTPHjxsAUi-qNiXg7eU0.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Lato Italic'), local('Lato-Italic'), url(https://fonts.gstatic.com/s/lato/v15/S6u8w4BMUTPHjxsAXC-qNiXg7Q.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 700;
+  src: local('Lato Bold Italic'), local('Lato-BoldItalic'), url(https://fonts.gstatic.com/s/lato/v15/S6u_w4BMUTPHjxsI5wq_FQftx9897sxZ.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 700;
+  src: local('Lato Bold Italic'), local('Lato-BoldItalic'), url(https://fonts.gstatic.com/s/lato/v15/S6u_w4BMUTPHjxsI5wq_Gwftx9897g.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Lato Regular'), local('Lato-Regular'), url(https://fonts.gstatic.com/s/lato/v15/S6uyw4BMUTPHjxAwXiWtFCfQ7A.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Lato Regular'), local('Lato-Regular'), url(https://fonts.gstatic.com/s/lato/v15/S6uyw4BMUTPHjx4wXiWtFCc.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Lato Bold'), local('Lato-Bold'), url(https://fonts.gstatic.com/s/lato/v15/S6u9w4BMUTPHh6UVSwaPGQ3q5d0N7w.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Lato Bold'), local('Lato-Bold'), url(https://fonts.gstatic.com/s/lato/v15/S6u9w4BMUTPHh6UVSwiPGQ3q5d0.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+a {
+  color: #1772d0;
+  text-decoration: none;
+}
+
+a:focus,
+a:hover {
+  color: #f09228;
+  text-decoration: none;
+}
+
+table {
+  /*max-width:800px;*/
+  max-width:940px;
+	
+  width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;
+}
+
+td, tr {
+  padding: 0px;
+}
+
+body,
+td,
+th,
+tr,
+p,
+a {
+  font-family: Helvetica, Verdana, sans-serif; /*'Lato', */
+  font-size: 16px;
+}
+
+p {
+  text-align: justify;
+}
+
+strong {
+  font-family: Helvetica, Verdana, sans-serif; /*'Lato', */
+  font-size: 16px;
+}
+
+heading {
+  font-family: Helvetica, Verdana, sans-serif; /*'Lato', */
+  font-size: 28px;
+}
+
+.heading {
+  font-family: Helvetica, Verdana, sans-serif; /*'Lato', */
+  font-size: 28px;
+  text-align: left;
+  border-bottom: solid 1px black;
+  font-variant: small-caps;
+  
+  margin-top: 20px;
+}
+
+papertitle {
+  font-family: Helvetica, Verdana, sans-serif; /*'Lato', */
+  font-size: 16px;
+  font-weight: 700
+}
+ 
+name {
+  font-family: Helvetica, Verdana, sans-serif; /*'Lato', */
+  font-size: 32px;
+}
+
+.one {
+  /*width: 160px;
+  height: 160px;*/
+  position: relative;
+}
+
+.two {
+  /*width: 160px;
+  height: 160px;*/
+  position: absolute;
+  transition: opacity .2s ease-in-out;
+  -moz-transition: opacity .2s ease-in-out;
+  -webkit-transition: opacity .2s ease-in-out;
+}
+
+.fade {
+  transition: opacity .2s ease-in-out;
+  -moz-transition: opacity .2s ease-in-out;
+  -webkit-transition: opacity .2s ease-in-out;
+}
+
+span.highlight {
+  background-color: #ffffd0;
+}
+
+
+/* custom menu */
+
+.menu_select {
+  margin-top: 0px;
+  text-align:right;font-size:x-large; 
+  font-variant: small-caps;
+  
+}
+.menu_select a {
+  font-size:x-large;
+}
+
+
+/* style the box a bit like https://www.gwern.net/Faces */
+
+.hoverimage span {
+    position: absolute;
+    /*top: 0px;
+    left: 0px;*/
+    /*right: 0;*/
+    width: 350px;
+    /*padding: 2px 0;*/
+	padding: 10px;
+	
+    background-color: #000;
+    background-color: rgba(0, 0, 0, 0.65);
+    color: #fff;
+    opacity: 0;
+    transition: opacity .5s ease-in-out;
+    text-align: center;
+    font-family: Arial;
+    font-size: 14px;
+	z-index: 5;
+}
+.hoverimage:hover {
+  z-index:1000;
+}
+.hoverimage:hover span {
+    opacity: 1;
+}
+
+/* better pop-up - https://codepen.io/kilgoret6/pen/XWdbaqW */
+/* HOVER STYLES */
+ 
+ span#pop-up {
+   display: none;
+   position: absolute;
+   width: 280px;
+   padding: 10px;
+   background: #eeeeee;
+   color: #000000;
+   border: 1px solid #1a1a1a;
+   font-size: 90%;
+   
+   z-index:1000;
+
+   background-color: #000;
+   background-color: rgba(0, 0, 0, 0.65);
+   color: #fff;
+   text-align: center;
+   font-family: Arial;
+   font-size: 14px;
+
+   
+ }
+ 
+
+
+/**/
+    	ul{ list-style: none outside none;
+	    padding-left: 0;
+            margin: 0;
+		}
+        .demo .item{
+            margin-bottom: 60px;
+        }
+		.content-slider li{
+		    background-color: #ed3020;
+		    text-align: center;
+		    color: #FFF;
+		}
+		.content-slider h3 {
+		    margin: 0;
+		    padding: 70px 0;
+		}
+		.demo{
+			/*width:800px;*/
+			width:940px;
+
+		}
+
+

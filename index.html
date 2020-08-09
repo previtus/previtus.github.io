@@ -1,0 +1,356 @@
+<!DOCTYPE HTML>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-175023497-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-175023497-1');
+  </script>
+
+  <title>Vít Růžička</title>
+  
+  <meta name="author" content="Vit Ruzicka">
+  <meta name="keywords" content="Vit Ruzicka, machine learning">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+  <link rel="stylesheet"  href="css/lightslider.css"/>
+  <link rel="icon" type="image/png" href="images/previtus.png">
+
+  <!--<script src="http://code.jquery.com/jquery-1.11.0.js"></script>-->
+  <!--<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>-->
+  <script src="js/jquery.1.9.1.min.js"></script>
+
+</head>
+
+<body>
+  <table><tbody>
+    <tr>
+      <td>
+
+        <table><tbody>
+          <tr>
+            <td style="padding:0px">
+              <br>
+              <p class="menu_select">
+                <a href="index.html" title="Research, Artworks & info">Main</a> | <a href="photo.html">Photography</a> | Etc.
+              </p>
+            </td>
+          </tr>
+        </tbody></table>
+
+	  
+        <table><tbody>
+          <tr>
+            <td style="padding:2.5%;width:63%;vertical-align:middle">
+              <p style="text-align:center">
+                <name>Vít Růžička</name>
+              </p>
+              <p>Welcome to my webpage, here are few details about me, my projects in academia and photography. In 2019-20, I was working as a research assistant and lecturer at the University of the Arts London in the <a href="https://www.arts.ac.uk/creative-computing-institute">Creative Computing Institute</a>. Before that I was on a research internship at ETH Zurich in the <a href="https://prs.igp.ethz.ch/ecovision.html">EcoVision group</a> (2019) and at Carnegie Mellon University in <a href="https://users.ece.cmu.edu/~franzf/" title="The awesome IAESTE is responsible for this particular internship. They offer positions in academia and industry around the world for freshly finished students of technical disciplines. I highly recommend checking them out!">Franz Franchetti’s group</a> (2017-18). I did my MSc and BSc at the <a href="https://oi.fel.cvut.cz/en/" title="I am endlessly grateful to the study abroad program conducted by CTU/ČVUT. Feel free to contact me with questions on how to apply for it.">Czech Technical University in Prague</a>. I like Machine Learning research, Arts, literature, traveling and analog photography.
+              </p>
+              <p style="text-align:center">
+                <a href="mailto:previtus@gmail.com">Email</a> &nbsp/&nbsp
+                <!--<a href="cv.pdf">CV</a> &nbsp/&nbsp-->
+                <a href="https://scholar.google.com/citations?user=sNK00NIAAAAJ">Google Scholar</a> &nbsp/&nbsp
+                <a href="https://github.com/previtus">GitHub</a> &nbsp/&nbsp
+                <a href="https://www.youtube.com/previtus">YouTube</a>
+              </p>
+  <!--demo for the in-line pop-up: <p>
+    aaa <a href="#" class="trigger">this link</a><span id="pop-up">This box only appears when the trigger link is hovered over. Otherwise it is hidden from view.</span> bbb ccc <a href="#" class="trigger">this link</a><span id="pop-up">Alternative box.</span> bbb
+  </p>-->
+            </td>
+            <td style="padding:2.5%;width:20%;max-width:20%">
+              <a href="images/vr.jpg"><img style="width:100%;max-width:100%" alt="profile photo" src="images/vr.jpg"></a>
+            </td>
+          </tr>
+        </tbody></table>
+
+
+        <table><tbody>
+            <tr>
+            <td style="padding:20px;width:100%;vertical-align:middle">
+              <div class="heading">Research</div>
+              <p>My research interests are in Machine Learning applied in image analysis and generation, Computer Vision and Generative Models. I would like to use my research to aid with real-world problems, and sometimes I dabble with art making and question how we can use Machine Learning as a tool for creative expression.
+              </p>
+            </td>
+          </tr>
+        </tbody></table>
+        <table><tbody>
+
+<!-- paper -->
+          <tr onmouseout="p_change_stop()" onmouseover="p_change_start()">
+            <td style="padding:20px;width:30%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='p_change_image'>
+                  <img src='images/paper_activechangedetection_prediction.jpg' width="256"></div>
+                <img src='images/paper_activechangedetection.jpg' width="256">
+              </div>
+              <script type="text/javascript">
+                function p_change_start() { document.getElementById('p_change_image').style.opacity = "1"; }
+                function p_change_stop() { document.getElementById('p_change_image').style.opacity = "0"; }
+                p_change_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:60%;vertical-align:middle">
+              <papertitle>Deep Active Learning in Remote Sensing for data efficient Change Detection</papertitle> <em>[in review process]</em>
+              
+              <br>
+              <strong>Vít Růžička</strong>, 
+			  <a href="https://igp.ethz.ch/personen/person-detail.html?persid=253653">Stefano D'Aronco</a>, 
+			  <a href="https://igp.ethz.ch/personen/person-detail.html?persid=186562">Jan Dirk Wegner</a>, 
+			  <a href="https://igp.ethz.ch/personen/person-detail.html?persid=143986">Konrad Schindler</a>
+              <br>
+			  <em>ECML/PKDD 2020 workshop - Machine Learning for Earth Observation</em>, 2020
+              <br>
+              <a href="https://github.com/previtus/ChangeDetectionProject">code</a>
+	    /
+			  <a href="https://colab.research.google.com/github/previtus/ChangeDetectionProject/blob/master/demo/_ChangeDetection_prediction_example.ipynb" title="Inference demo, showing results of a pre-trained Change Detection model." class="trigger">colab demo</a><span id="pop-up" style="width: 400px;"><b>Example of inference:</b><br>&nbsp;<img src="images/paper_activechangedetection_colabdemo.png" width=400px><br><em>Figure shows aerial images from years 2012 (left), 2015 (middle) and the predicted change label (right).&nbsp;</em></span>
+
+              <p></p>
+              <p>We investigate active learning in the context of deep neural networks for change detection and map updating. For this task we propose a Siamese version of the U-Net model and test two approaches in model uncertainty prediction (model ensembles and Monte Carlo Batch Normalization). Iteratively selecting the most uncertain samples for annotation, we reach the same performance as a model supervised with a large fully annotated training set with approx. 99% fewer annotated samples.</p>
+            </td>
+          </tr> 
+<!-- / paper -->
+        </tbody></table>
+        <table><tbody>
+<!-- paper -->
+          <tr onmouseout="p_fast4k_stop()" onmouseover="p_fast4k_start()">
+            <td style="padding:20px;width:60%;vertical-align:middle">
+			  <a href="https://arxiv.org/pdf/1810.10551.pdf">
+                 <papertitle>Fast and accurate object detection in high resolution 4K and 8K video using GPUs</papertitle>
+			  </a>
+              <br>
+              <strong>Vít Růžička</strong>,
+              <a href="https://users.ece.cmu.edu/~franzf/">Franz Franchetti</a>
+              <br>
+			  <em>IEEE High Performance Extreme Computing Conference</em>, 2018, <strong>Best Paper Finalist</strong>
+              <br>
+              <a href="https://www.youtube.com/watch?v=07wCxSItnAk">video</a>
+        /
+              <a href="https://github.com/previtus/AttentionPipeline">code</a>
+        /
+              <a href="https://www.ece.cmu.edu/news-and-events/story/2018/11/franchetti-object-detection.html">media 1</a>, <a href="https://techxplore.com/news/2018-11-4k-8k-video-gpus.html">2</a>
+              <p></p>
+              <p>Paper in which we scale up the YOLO v2 object detection model to process video of 4K-8K resolution in 3-6 fps using GPUs. We suggest a two-stage processing pipeline which allows us to ignore some areas of the image. This is much faster than processing the whole image yet retains 98% of the accuracy on a real-world video footage dataset.</p>
+            </td>
+            <td style="padding:20px;width:35%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='p_fast4k_image'>
+                  <img id="test" src='images/paper_fast4kdetection_statues.jpg' width="256"></div>
+                <img src='images/paper_fast4kdetection.jpg' width="256">
+              </div>
+              <script type="text/javascript">
+                function p_fast4k_start() { document.getElementById('p_fast4k_image').style.opacity = "1"; }
+                function p_fast4k_stop() { document.getElementById('p_fast4k_image').style.opacity = "0"; }
+                p_fast4k_stop()
+              </script>
+            </td>
+
+          </tr> 
+<!-- / paper -->
+        </tbody></table>
+        <table><tbody>
+<!-- paper -->
+          <tr onmouseout="p_myths_stop()" onmouseover="p_myths_start()">
+            <td style="padding:20px; width:30%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='p_myths_image'>
+                  <img src='images/paper_mythsfakenews_detail.jpg' width="256"></div>
+                <img src='images/paper_mythsfakenews.jpg' width="256">
+              </div>
+              <script type="text/javascript">
+                function p_myths_start() { document.getElementById('p_myths_image').style.opacity = "1"; }
+                function p_myths_stop() { document.getElementById('p_myths_image').style.opacity = "0"; }
+                p_myths_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:60%;vertical-align:middle">
+              <a href="https://arxiv.org/pdf/1908.01760.pdf">
+                <papertitle>The Myths of Our Time: Fake News</papertitle>
+              </a>
+              <br>
+              <strong>Vít Růžička</strong>, 
+			  <a href="https://www.kangeunsu.com/">Eunsu Kang</a>, 
+			  <a href="http://gan-systems.com/">David Gordon</a>, Ankita Patel, <a href="http://jacquifashimpaur.com/">Jacqui Fashimpaur</a>, <a href="http://www.manzil.ml/">Manzil Zaheer</a>
+              <br>
+			  <em>International Symposium on Electronic Art</em>, 2019<br>
+              <a href="http://www.newsby.ml/">project page</a>
+        /
+              <a href="https://github.com/previtus/fake_news_generation_mark_I">code</a>
+			  <br>
+			  <br>
+			  <em>NeurIPS Workshop on Machine Learning for Creativity and Design</em>, 2018<br>
+			  <a href="http://www.aiartonline.com/community/vit-ruzicka-eunsu-kang-david-gordon-ankita-patel-jacqui-fashimpaur-manzil-zaheer/" title="as an artwork submitted to the NeurIPS Workshop on Machine Learning for Creativity and Design">art gallery</a>
+              <p></p>
+              <p>We use LSTM models to generate fake newspaper articles focusing on areas often targetted as the contents of fake news (topics such as politics or fake news themselves). While the purpose of most fake news is misinformation and political propaganda, we explore it as a new type of myth created in the age of internet identities. These generated articles serve as a mirror and can give us insight into people’s hidden fear and desire similir to myths, folk tales or urban legends.</p>
+            </td>
+          </tr> 
+<!-- / paper -->
+
+        </tbody></table>
+
+
+
+        <table><tbody>
+            <tr>
+            <td style="padding:20px;width:100%;vertical-align:middle">
+			  <div class="heading">Artworks</div>
+              <p>I always found art to be a way of exploring and communicating ideas, getting to understand or describe the unknown. In a way scientific work has similar goals but uses different language and methods. On this track I am co-organizing the yearly <a href="https://artsci.ethz.ch/" title="ArtSci is a community at ETH Zurich organizing yearly exhibitions exploring this intersection, communicating science with arts and connecting like-minded people. I am part of the organizing team. Check it out and participate!">ArtSci</a> exhibition at ETH.
+              </p>
+              <p>My own creative practice started with analog photography (manual and slow process of taking and developing pictures in a darkroom) and later got mixed in with Machine Learning. Can an automatic programmed or trained process be creative on its own? Perhaps not, but with a bit of work and understanding, it can be used as a tool of creative expression. Great examples of this can be seen in the neurography of <a href="http://quasimondo.com/" class="trigger">Mario Klingemann</a><span id="pop-up" style="width: 400px;"><b>Mario Klingemann - Memories of Passersby I, 2018:</b><br>&nbsp;<img src="images/illustration_marioklingemann.jpg" width=400px><br><em>Source: aiartists.org/mario-klingemann</em></span>, dataset handling of <a href="http://annaridler.com/" class="trigger">Anna Ridler</a><span id="pop-up" style="width: 400px;"><b>Anna Ridler - Myriad (Tulips), 2018:</b><br>&nbsp;<img src="images/illustration_annaridlerdatasets.jpg" width=400px><br><em>&nbsp;</em></span>, domain transfers of <a href="http://memo.tv/" class="trigger">Memo Akten</a><span id="pop-up" style="width: 400px;"><b>Memo Akten - Learning to See (Gloomy Sunday), 2017:</b><br>&nbsp;<img src="images/illustration_learningtosee.jpg" width=400px><br><em>Image reconstructed using a model trained on particular visual dataset.</em></span> or lectures by <a href="https://genekogan.com/">Gene Kogan</a>. If you would like to know more, you can hear me introducing this area in <a href="https://www.youtube.com/watch?v=b6bjeelzB5c" class="trigger">a video recording</a><span id="pop-up" style="width: 600px;"><b>Slides from the first lecture:</b><br>&nbsp;<img src="images/cci_artml_introslide.gif" width=600px><br><em>Introductory session exploring the intersections of Art and Machine Learning.&nbsp;</em></span> of my first class of Exploring Machine Intelligence at UAL.
+              </p>
+
+			  
+            </td>
+          </tr>
+        </tbody></table>
+        <table><tbody>
+
+
+        <table width="100%" align="center" border="0" cellpadding="20"><tbody>
+<!-- artwork -->
+          <tr onmouseout="a_latentjungle_stop()" onmouseover="a_latentjungle_start()">
+            <td style="padding:20px;width:30%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='a_latentjungle_image'>
+                  <img src='images/artwork_latentjunglenips_neg.jpg' width="256"></div>
+                <img src='images/artwork_latentjunglenips.jpg' width="256">
+              </div>
+              <script type="text/javascript">
+                function a_latentjungle_start() { document.getElementById('a_latentjungle_image').style.opacity = "1"; }
+                function a_latentjungle_stop() { document.getElementById('a_latentjungle_image').style.opacity = "0"; }
+                a_latentjungle_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:60%;vertical-align:middle">
+              <a href="http://www.aiartonline.com/highlights/vit-ruzicka/">
+			    <papertitle>Latent Jungle</papertitle>
+              </a>
+              <br>
+              <strong>Vít Růžička</strong>
+              <br>
+			  <em>NeurIPS Workshop on Machine Learning for Creativity and Design</em>, 2019, <strong>Highlight</strong>
+              <br>
+              <a href="http://www.aiartonline.com/highlights/vit-ruzicka/">gallery</a>
+              <p></p>
+              <p>A neuro-photographic collage playing with the typography of Amazonian jungle patterns, shapes and textures and their reinterpretation using generative neural networks and the material properties of Super8 analog film. Digital generative models as a extension of a limited number of film frames. Analog film footage as a mode of interaction with the medium inside a darkroom with photographic paper and scissors.</p>
+            </td>
+          </tr> 
+<!-- / artwork -->
+        </tbody></table>
+        <table><tbody>
+<!-- artwork -->
+          <tr onmouseout="a_uncannyvaley_stop()" onmouseover="a_uncannyvaley_start()">
+            <td style="padding:20px;width:60%;vertical-align:middle">
+			  <a href="http://www.aiartonline.com/design-2019/vit-ruzicka-alexander-nikolas-walzer-nizar-taha/">
+                 <papertitle>Uncanny Valleys: Generative landscapes</papertitle>
+			  </a>
+              <br>
+              <strong>Vít Růžička</strong>, Alexander Nikolas Walzer, Nizar Taha
+              <br>
+			  <em>NeurIPS Workshop on Machine Learning for Creativity and Design</em>, 2019
+              <br>
+              <a href="http://www.aiartonline.com/design-2019/vit-ruzicka-alexander-nikolas-walzer-nizar-taha/">gallery</a>
+              <p></p>
+              <p>In this project we generate endless non-existent variation of 3D patches of landscape with deep learning models trained on the features of real-world landscape. The name of the project is based on the works of Ernst Jentsch <em>"On the Psychology of the Uncanny"</em> and Masahiro Mori <em>"The Uncanny Valley"</em>, which characterize the <em>"uncanny"</em> as a mental state which occurs when one is not able to distinguish between the imagined and the real or between the dead and the living. Generated samples resemble the real, but are in fact a reimagination of the original dataset.</p>
+            </td>
+            <td style="padding:20px;width:35%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='a_uncannyvaley_image'>
+                  <img id="test" src='images/artwork_uncannyvalleys_sm.gif' width="256"></div>
+                <img src='images/artwork_uncannyvalleys_single.jpg' width="256">
+              </div>
+              <script type="text/javascript">
+                function a_uncannyvaley_start() { document.getElementById('a_uncannyvaley_image').style.opacity = "1"; }
+                function a_uncannyvaley_stop() { document.getElementById('a_uncannyvaley_image').style.opacity = "0"; }
+                a_uncannyvaley_stop()
+              </script>
+            </td>
+
+          </tr> 
+<!-- / artwork -->
+        </tbody></table>
+
+
+		
+
+
+
+        <table><tbody>
+            <tr>
+            <td style="padding:20px;width:100%;vertical-align:middle">
+			  <div class="heading">Teaching</div>
+            </td>
+          </tr>
+        </tbody></table>
+
+        <table width="100%" align="center" border="0" cellpadding="20"><tbody>
+          <tr>
+            <td style="padding:20px;width:25%;vertical-align:middle"><img src="images/cci_artml.png" width=256px></td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://github.com/previtus/cci_exploring_machine_intelligence">
+                <papertitle>Exploring Machine Intelligence</papertitle>
+              </a>
+              <br>
+              <strong>Vít Růžička</strong>
+              <br>
+        <em>University of the Arts London - Creative Computing Institute</em>, 2020
+              <br>
+              <a href="https://www.youtube.com/playlist?list=PLCIVpmFkFKQ88lzWtYW2MCwqXofhkzqgt">video playlist</a>
+        /
+              <a href="https://github.com/previtus/cci_exploring_machine_intelligence">class page</a>
+              <p></p>
+              <p>UAL, CCI - MSc course "IU000128 Coding Three: Exploring Machine Intelligence"</p>
+            </td>
+          </tr>
+
+
+          <tr>
+            <td style="padding:20px;width:25%;vertical-align:middle"><img src="images/cci_math.png" width=256px></td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://github.com/previtus/cci_data_maths_methods">
+                <papertitle>Data, Math and Methods</papertitle>
+              </a>
+              <br>
+              <strong>Vít Růžička</strong>
+              <br>
+        <em>University of the Arts London - Creative Computing Institute</em>, 2020
+              <br>
+              <a href="https://www.youtube.com/playlist?list=PLCIVpmFkFKQ9_0oVbmZ8Nln-3FP3_3aIz">video playlist</a>
+        /
+              <a href="https://github.com/previtus/cci_data_maths_methods">class page</a>
+              <p></p>
+              <p>UAL, CCI - BSc Year 1 course "Data, Math and Methods"</p>
+            </td>
+          </tr>
+
+        </tbody></table>
+
+
+
+
+        <table><tbody>
+          <tr>
+            <td style="padding:0px">
+              <br>
+              <p style="text-align:right;font-size:small;">
+                Webpage design from <a style="font-size:small;" href="https://jonbarron.info/">here</a>.
+              </p>
+            </td>
+          </tr>
+        </tbody></table>
+      </td>
+    </tr>
+  </table>
+
+
+  <script type="text/javascript" src="js/custom.js"></script>
+
+  <!-- maybe use https://clustrmaps.com/add ? or Google Analytics? -->
+
+</body>
+
+</html>
