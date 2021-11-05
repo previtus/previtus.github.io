@@ -79,7 +79,40 @@
           </tr>
         </tbody></table>
         <table><tbody>
+<!-- paper -->
+          <tr onmouseout="p_fdl_aihadr_stop()" onmouseover="p_fdl_aihadr_start()">
+            <td style="padding:20px;width:60%;vertical-align:middle">
+			  <a href="https://arxiv.org/abs/2111.02995">
+                 <papertitle>Unsupervised Change Detection of Extreme Events Using ML On-Board</papertitle>
+			  </a>
+              <br>
+              <strong>Vít Růžička</strong>, <a href="https://scholar.google.com/citations?user=oO-dzBoAAAAJ">Anna Vaughan</a>, <a href="https://www.kellogg.ox.ac.uk/our-people/daniele-de-martini/">Daniele De Martini</a>, <a href="https://dfulu.github.io/">James Fulton</a>, <a href="https://www.seti.org/affiliates/valentina-salvatelli">Valentina Salvatelli</a>, <a href="https://www.surrey.ac.uk/people/chris-bridges">Chris Bridges</a>, <a href="https://www.uv.es/gonmagar/">Gonzalo Mateo-Garcia</a>, <a href="https://vzantedeschi.com/">Valentina Zantedeschi</a>
+              <br>
+			  <em>NeurIPS Workshop on AI for Humanitarian Assistance and Disaster Response Workshop (AI+HADR)</em>, 2021
+              <br>
+			  &lt;more materials to be released&gt;
+              <p></p>
+              <p>We introduce the RaVÆn system, a lightweight, unsupervised approach for change detection in satellite data based on Variational Auto-Encoders (VAEs) with the specific purpose of on-board deployment. It flags changed areas to prioritise for downlink, shortening the response time. We show that the proposed method outperforms pixel-wise baselines and we test it on resource-limited hardware. We also aim to release the annotated dataset of extreme events. Work conducted at the <a href="https://fdleurope.org/fdl-europe-2021" title="Frontier Development Lab, a research accelerator by ESA, NASA, Oxford University and others.">FDL 2021</a>.
+			  </p>
+            </td>
+            <td style="padding:20px;width:35%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='p_fdl_aihadr_image'>
+                  <img id="test" src='images/paper_fdl_extreme_events_b_predictions.jpg' width="256"></div>
+                <img src='images/paper_fdl_extreme_events_a_changes.jpg' width="256">
+              </div>
+              <script type="text/javascript">
+                function p_fdl_aihadr_start() { document.getElementById('p_fdl_aihadr_image').style.opacity = "1"; }
+                function p_fdl_aihadr_stop() { document.getElementById('p_fdl_aihadr_image').style.opacity = "0"; }
+                p_fdl_aihadr_stop()
+              </script>
+            </td>
 
+          </tr> 
+<!-- / paper -->
+        </tbody></table>
+
+        <table><tbody>
 <!-- paper -->
           <tr onmouseout="p_change_stop()" onmouseover="p_change_start()">
             <td style="padding:20px;width:30%;vertical-align:middle">
@@ -126,7 +159,7 @@
 <!-- paper -->
           <tr onmouseout="p_fast4k_stop()" onmouseover="p_fast4k_start()">
             <td style="padding:20px;width:60%;vertical-align:middle">
-			  <a href="https://arxiv.org/pdf/1810.10551.pdf">
+			  <a href="https://arxiv.org/abs/1810.10551">
                  <papertitle>Fast and accurate object detection in high resolution 4K and 8K video using GPUs</papertitle>
 			  </a>
               <br>
