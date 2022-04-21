@@ -63,10 +63,25 @@
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
-#main_page_list img {
+
+/* Settings for phones */
+@media (max-width:481px)  {
+    /*etc...*/
+}
+
+
+/* Settings for images: */
+
+#main_page_list .bigimg {
 	/* adjust depending on how much space you have after a screen resize, but max 256 */
 	width:100%;
 	max-width:256;
+}
+
+#main_page_list .smallimg {
+	/* smaller img */
+	width:100%;
+	max-width:180;
 }
 
 a {
