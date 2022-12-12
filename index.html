@@ -81,16 +81,52 @@
             </td>
           </tr>
         </tbody></table>
+		
+        <table><tbody>
+<!-- paper -->
+          <tr onmouseout="p_fdl_fire_stop()" onmouseover="p_fdl_fire_start()">
+            <td style="padding:20px;width:30%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='p_fdl_fire'>
+                  <img class="bigimg" src='images/paper_fireclr_prediction.jpg' width="256"></div>
+                <img class="bigimg" src='images/paper_fireclr.jpg' width="256">
+              </div>
+              <script type="text/javascript">
+                function p_fdl_fire_start() { document.getElementById('p_fdl_fire').style.opacity = "1"; }
+                function p_fdl_fire_stop() { document.getElementById('p_fdl_fire').style.opacity = "0"; }
+                p_fdl_fire_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:60%;vertical-align:middle">
+		    
+			  <a href="https://arxiv.org/abs/2211.14654">
+              <papertitle>Unsupervised Wildfire Change Detection based on Contrastive Learning</papertitle>
+			  </a>
+              <br>
+<a href="https://drought.unl.edu/AboutUs/WhoWeAre.aspx?id=43">Beichen Zhang</a>, <a href="https://twitter.com/huiqi_wang56">Huiqi Wang</a>, <a href="https://scholar.google.com/citations?user=XvF18AkAAAAJ&hl=en">Amani Alabri</a>, <a href="https://www.researchgate.net/profile/Karol-Bot-2">Karol Bot</a>, <a href="https://www.researchgate.net/profile/Cole-Mccall">Cole McCall</a>, <a href="https://www.researchgate.net/profile/Dale-Hamilton-2">Dale Hamilton</a>, <strong>Vít Růžička</strong>
+              <br>
+			  <em>NeurIPS Workshop on AI for Humanitarian Assistance and Disaster Response Workshop (AI+HADR)</em>, 2022
+              <br>
+              <a href="https://github.com/spaceml-org/FireCLR-Wildfires">code</a>
+
+              <p></p>
+              <p>We show how to apply the contrastive learning technique of SimCLR for the task of unsupervised change detection, exemplified on wildfire detection. For this project, I was the ML team lead at the <a href="https://frontierdevelopmentlab.org/neurips2022">FDL US 2022</a>.</p>
+            </td>
+          </tr> 
+<!-- / paper -->
+        </tbody></table>
+	
         <table><tbody>
 <!-- paper -->
           <tr onmouseout="p_fdl_aihadr_stop()" onmouseover="p_fdl_aihadr_start()">
             <td style="padding:20px;width:60%;vertical-align:middle">
-			  <a href="https://arxiv.org/abs/2111.02995">
-                 <papertitle>Unsupervised Change Detection of Extreme Events Using ML On-Board</papertitle>
+			  <a href="https://www.nature.com/articles/s41598-022-19437-5">
+                 <papertitle>RaVÆn: unsupervised change detection of extreme events using ML on-board satellites</papertitle>
 			  </a>
               <br>
               <strong>Vít Růžička</strong>, <a href="https://scholar.google.com/citations?user=oO-dzBoAAAAJ">Anna Vaughan</a>, <a href="https://www.kellogg.ox.ac.uk/our-people/daniele-de-martini/">Daniele De Martini</a>, <a href="https://dfulu.github.io/">James Fulton</a>, <a href="https://www.seti.org/affiliates/valentina-salvatelli">Valentina Salvatelli</a>, <a href="https://www.surrey.ac.uk/people/chris-bridges">Chris Bridges</a>, <a href="https://www.uv.es/gonmagar/">Gonzalo Mateo-Garcia</a>, <a href="https://vzantedeschi.com/">Valentina Zantedeschi</a>
               <br>
+			  <strong><em>Nature Scientific Reports</em></strong>, 2022; 
 			  <em>NeurIPS Workshop on AI for Humanitarian Assistance and Disaster Response Workshop (AI+HADR)</em>, 2021
               <br>
 			  <a href="https://github.com/spaceml-org/RaVAEn/">code & data</a>
